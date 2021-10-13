@@ -33,8 +33,8 @@ test('renders and toggles modal area', async () => {
   const closeModal = screen.getByRole('button', {name: /close/i} );
   expect(closeModal).toBeInTheDocument();
 
-  const bookButton = screen.getByRole('button', {name: /book appointment/i} );
-  expect(bookButton).toBeInTheDocument();
+  const confirmButton = screen.getByRole('button', {name: /confirm/i} );
+  expect(confirmButton).toBeInTheDocument();
 
   const doctorName = screen.getByText(`DR. ${mockDoctor.name.toUpperCase()}`);
   expect(doctorName).toBeInTheDocument();

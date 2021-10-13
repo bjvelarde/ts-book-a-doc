@@ -27,7 +27,7 @@ const DoctorCard = ({ doctor }: Props) => {
     });
   };
 
-  return <SC.Container>
+  return <SC.Container data-testid="doctor-card">
     <Link to={`/doctor/${doctor.id}`}>
       <SC.Header>
         <SC.Icon>

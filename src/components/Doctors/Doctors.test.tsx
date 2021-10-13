@@ -16,9 +16,11 @@ test('renders with doctors list', async () => {
 
   await waitForElementToBeRemoved(() => screen.getByTestId(/spinner/i));
 
-  await waitFor(async () => {
-		const cards = await screen.findAllByTestId(/doctor-card/i);
+  const cards = await screen.findAllByTestId(/doctor-card/i);
+	expect(cards.length).toBeGreaterThan(0);
+  // await waitFor(async () => {
+	// 	const cards = await screen.findAllByTestId(/doctor-card/i);
 
-		expect(cards.length).toBeGreaterThan(0);
-	});
+	// 	expect(cards.length).toBeGreaterThan(0);
+	// });
 });

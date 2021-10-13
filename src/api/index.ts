@@ -21,7 +21,6 @@ const fetchDoctors = memoize(async (
   search: string = '',
   sortOrder: SortOrder = 'asc'
 ): Promise<DoctorList> => {
-  console.log(page, search, sortOrder);
   const response: HttpResponse = await http.get(doctorPath!);
 
   const sortAscending = (a: Doctor, b: Doctor) => {
