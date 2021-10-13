@@ -1,0 +1,8 @@
+{
+    "id": "fakeBookinfId",
+    "name": "fake patient",
+    "start": 0,
+    "doctorId": "fakeId",
+    "date": "fake-eDate",
+    "status": "OK"
+}

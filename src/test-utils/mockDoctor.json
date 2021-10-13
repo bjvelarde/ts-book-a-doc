@@ -1,0 +1,54 @@
+{
+    "id": "fakeId",
+    "name": "fake doctor",
+    "description": "description",
+    "address": {
+      "line_1": "line1",
+      "line_2": "line2",
+      "district": "district"
+    },
+    "opening_hours": [
+      {
+        "start": "9.50",
+        "end": "19.50",
+        "day": "SUN",
+        "isClosed": false
+      },
+      {
+        "start": "9.50",
+        "end": "19.50",
+        "day": "MON",
+        "isClosed": false
+      },
+      {
+        "start": "9.50",
+        "end": "19.50",
+        "day": "TUE",
+        "isClosed": false
+      },
+      {
+        "start": "9.50",
+        "end": "19.50",
+        "day": "WED",
+        "isClosed": false
+      },
+      {
+        "start": "9.50",
+        "end": "19.50",
+        "day": "THU",
+        "isClosed": false
+      },
+      {
+        "start": "9.50",
+        "end": "19.50",
+        "day": "FRI",
+        "isClosed": false
+      },
+      {
+        "start": "9.50",
+        "end": "19.50",
+        "day": "SAT",
+        "isClosed": false
+      }
+    ]
+  }
